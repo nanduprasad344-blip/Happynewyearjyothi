@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>For You ✨</title>
+
+<style>
+body{
+  margin:0;
+  font-family:"Poppins",system-ui,sans-serif;
+  background:linear-gradient(135deg,#D81B60,#AD1457);
+  color:#fff;
+}
+
+.fade-in{
+  opacity:0;
+  animation:fade 1.2s ease forwards;
+}
+@keyframes fade{
+  from{opacity:0; transform:translateY(8px);}
+  to{opacity:1; transform:translateY(0);}
+}
+
+.wrapper{
+  max-width:650px;
+  margin:0 auto;
+  padding:25px 18px 60px;
+}
+
+.card{
+  background:#fff;
+  border-radius:25px;
+  padding:22px;
+  box-shadow:0 10px 35px rgba(0,0,0,0.12);
+  color:#333;
+}
+
+.title{
+  text-align:center;
+  font-size:22px;
+  color:#8A2BE2;
+  font-weight:600;
+}
+
+.divider{
+  width:60px;
+  height:3px;
+  background:#D81B60;
+  border-radius:20px;
+  margin:12px auto 18px;
+  opacity:0.7;
+}
+
+.text{
+  line-height:1.7;
+  font-size:15.5px;
+  margin-top:10px;
+}
+
+.signature{
+  text-align:right;
+  margin-top:25px;
+  color:#AD1457;
+  opacity:0.85;
+}
+
+.back-btn{
+  position:fixed;
+  bottom:20px;
+  left:50%;
+  transform:translateX(-50%);
+  padding:12px 22px;
+  background:#6a4fb7;
+  color:white;
+  text-decoration:none;
+  border-radius:25px;
+  box-shadow:0 4px 12px rgba(0,0,0,0.25);
+  transition:0.3s ease;
+}
+
+.back-btn:hover{
+  transform:translateX(-50%) scale(1.05);
+}
+</style>
+</head>
+
+<body>
+
+<div class="wrapper fade-in">
+  <div class="card fade-in">
+
+    <div class="title">         ..FOR MY LOVE 💫</div>
+    <div class="divider"></div>
+
+    <div class="text">
+      Thank you for letting me be with you 💫<br><br>
+      I wanted to keep this somewhere special, because you're special to me.
+    </div>
+
+    <div class="text">
+      You’ve become a part of my days in a way that feels calm… warm… and real.
+      I don’t need big things — just moments like this, where I can say what I feel quietly.
+    </div>
+
+    <div class="text">
+      I’ll continue to be in your life, sharing our moments and memories together.
+      One step. One day. Naturally.
+    </div>
+
+    <div class="signature">
+      — Pranav
+    </div>
+
+  </div>
+</div>
+<a class="back-btn" href="index.html">Back</a>
+
+
+</body>
+</html>
